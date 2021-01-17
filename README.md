@@ -26,3 +26,10 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+
+Problem with Shivam's solution - 
+- No behaviour of class Point.
+- No properties of class DistanceAndDirectionCalculator.
+- No encapsulation of class Point : properties of class are exposed through setters and properties of class are not declared final allowing anyone to change the values.
+- No abstraction of class Point : public getters and setters exposing implementation details.
